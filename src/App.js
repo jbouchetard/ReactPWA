@@ -33,7 +33,7 @@ function App() {
   // Création du routeur
   const router = createBrowserRouter([
     {
-      path: "/Home",
+      path: "/",
       element: <Home />,
       errorElement: <ErrorMessage />,
     }, { basename: "/ReactPWA"},
