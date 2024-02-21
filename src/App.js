@@ -36,7 +36,9 @@ function App() {
       path: "/",
       element: <Home />,
       errorElement: <ErrorMessage />,
-    }, { basename: "/ReactPWA"},
+
+    }, 
+   
     {
       path: "/details/:slug",
       element: <Details />,
