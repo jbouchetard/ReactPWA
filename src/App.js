@@ -36,7 +36,7 @@ function App() {
       path: "/",
       element: <Home />,
       errorElement: <ErrorMessage />,
-
+      basename: "ReactPWA",
     }, 
    
     {
@@ -52,7 +52,8 @@ function App() {
       path: "/MyShop",
      element: <MyShop />
     },
-  ], { basename: "/" })
+  ], { basename: "/ReactPWA" });
+
   const [dataLoaded, setDataLoaded] = useState(false);
   useEffect(() => {
     if (dataLoaded) {
